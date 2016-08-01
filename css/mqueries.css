@@ -1,0 +1,80 @@
+@media (max-width: 860px) {
+	
+	.navbar-brand img {
+		height: 90%;
+	
+	}
+	
+	.navbar-brand {
+		padding-top: 10px;
+	}
+	
+	.navbar-inverse {
+		height: 70px;
+	}
+	
+	.navbar-toggle {
+		margin-top: 20px;
+		border-color: white;
+	}
+	
+	.navbar-inverse .navbar-toggle {
+    border-color:white;
+	}
+	
+	.collapse {
+		background: black;
+	}
+	
+	.navbar-collapse {
+		margin-top: -90px;
+	}
+	
+	.top-210 {
+	margin-top: 50px;
+	}
+	
+	h1 {
+	font-size: 2.3em;
+	}
+	
+	.producto-info h3 {
+	font-size: 1.5em;
+	}
+	
+	h2 {
+		font-size: 1em;
+	}
+	
+	.pro-home {
+		height: 130px;
+		width: 130px;
+
+	}
+	
+	.element {
+		top: 28%;
+	}
+	
+	strong {
+	font-size: 1.1em;
+	}
+	
+	.navbar-brand {
+	padding-left:  20px;
+	}
+	
+	.col-xs-6 {
+	padding: 0;
+	}
+	
+	input[type="submit"],
+	input[type="reset"],
+	textarea,
+	input[type="text"] {
+	font-size: .85em;
+	padding: 5px 15px;
+	}
+	
+	form {text-align: center;}
+}
