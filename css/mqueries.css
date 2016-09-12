@@ -1,4 +1,7 @@
 @media (max-width: 860px) {
+	.carousel {
+	margin-top: 0px;
+	}
 	
 	.navbar-brand img {
 		height: 90%;
