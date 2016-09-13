@@ -32,6 +32,12 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
+.container-fluid {
+	margin-top: 200px;
+}
+
+
 /* 
 ==========================
 h1 h2 h3 h4 h5 h6
@@ -103,13 +109,22 @@ Dry CSS
 .height80 {
 	min-height: 80px;
 }
+
+.vertical_buttom {
+	vertical-align: bottom;
+}
+
+.padd-left-20 {
+	padding-left: 20px;
+}
+
 /* 
 ==========================
 Header
 ===========================  */
 
 header {
-	position: fixed;
+	position: relative;
 	width: 100%;
 	background: #CBC8CC;
 	color: white;
@@ -273,7 +288,85 @@ footer nav a {
 }
 
 
+/* //////////////////////////
+   footer
+////////////////////////////// */
 
+.contacto {
+	background:#f2f2f2;
+	color: gray;
+	padding: 50px 10px;
+}
+
+.contacto a {
+	display: block;
+	color: white;
+	font-size: 1.3em;
+	transition-property: all;
+	transition-duration: .5s;
+}
+
+.contacto a:hover {
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+.contacto img {
+	display: block;
+}
+
+.contacto h3 {
+	font-size: 
+}
+
+.contacto h5,
+.contacto h4 {
+	color: white;
+	font-weight: 100;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-size: 1.7em;
+}
+
+.contacto form {
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+input,
+textarea {
+	color: gray;
+	margin: 20px;
+	padding:20px;
+	border-radius: 20px;
+	font-weight: 400;
+	color: white;
+}
+
+input[type="submit"],
+input[type="reset"],
+textarea,
+input[type="text"]
+{
+    background-color: darkgray;
+	border: 2px solid white;
+	color: white;
+	padding: 10px 30px;
+	transition-property: all;
+	transition-duration: .5s;
+	font-weight: 400;
+}
+
+textarea,
+input[type="text"] {
+	width: 90%;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+	background-color: dimgray;
+	transform: 
+}
 
 
 /* //////////////////////////
@@ -282,6 +375,22 @@ footer nav a {
 
 
 @media screen and (min-width: 960px) {
+	
+	body {
+		padding-top: 70px;
+	}
+	
+	header {
+	position: fixed;
+	width: 100%;
+	background: #CBC8CC;
+	color: white;
+	height: 70px;
+	padding-top: 15px;
+	text-align: left;
+	z-index: 1000;
+}
+	
 	
 	footer nav {
 	position: relative;
